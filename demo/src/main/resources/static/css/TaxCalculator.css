@@ -1,0 +1,47 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
+body {
+    background-color: beige;
+}
+
+.pollutant-selector-wrapper {
+    transition: all .5s ease-in-out;
+}
+
+.hide {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.show {
+    padding-top: 12px;
+    overflow: hidden;
+}
+
+#title_wrapper {
+    border-style: solid;
+    border-color: #a36800;
+    border-radius: 10px;
+    border-width: 4px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.label_wrapper {
+    border-style: solid;
+    border-color: #a36800;
+    border-radius: 10px;
+    border-width: 4px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
